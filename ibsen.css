@@ -1,4 +1,4 @@
-speech {
+.speech {
     font-family:blue;
     font-size:14px;
     color: black;
@@ -24,9 +24,27 @@ speech {
     color:darkmagenta;
   }
   
-  .HELMER {
+ .HELMER {
     color:brown;
   }
+  .NORA:hover {
+    text-shadow:2px 2px 4px #FF5733; 
+    border: 2px solid #FF5733;
+    cursor: pointer;  
+}
+.PORTER:hover {
+    text-shadow:2px 2px 4px chartreuse; 
+    border:2px solid rgb(128, 204, 240);
+    cursor: pointer; 
+}
+.HELMER:hover {
+    text-shadow:2px 2px 4px fuchsia; 
+    border:2px solid lawngreen;
+    cursor: pointer; 
+}
+
+
+
   table {
     width: 100%;
     border-collapse: collapse;
@@ -49,18 +67,3 @@ tr:nth-child(even) {
     background-color:darkorchid;
   }
 
-.NORA:hover {
-    text-shadow:2px 2px 4px #FF5733; 
-    border: 2px solid #FF5733;
-    cursor: pointer; 
-}
-.PORTER:hover {
-    text-shadow:2px 2px 4px chartreuse; 
-    border:2px solid rgb(128, 204, 240);
-    cursor: pointer; 
-}
-.HELMER:hover {
-    text-shadow:2px 2px 4px fuchsia; 
-    border:2px solid lawngreen;
-    cursor: pointer; 
-}
