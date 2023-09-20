@@ -8,12 +8,12 @@
     font-family:'Times New Roman', Times, serif;
     font-size: 16px;
     color: black;
-    background-color:darkred;
+    background-color:lightcoral;
   }
   
   .direction:hover {
     background-color:fuchsia;
-    color:brown;
+    color: lavenderblush;
   }
   
   .NORA {
